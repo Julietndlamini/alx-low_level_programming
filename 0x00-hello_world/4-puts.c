@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	puts("\|Programming is like building a multiling        ual puzzle");
+	puts("\"Programming is like building a multiling          ual puzzle);
 	return(0);
 } 
