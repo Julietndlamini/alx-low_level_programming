@@ -1,5 +1,5 @@
 #include <stdio.h>
-i
+
 /**
 * main - Prints all possible combination of three num.
 *
@@ -21,7 +21,7 @@ int main(void)
 						'0');
 				putchar((num3 % 10) +
 						'0');
-				if (num == 7 && num2
+				if (num1 == 7 && num2
 					== 8 && num3
 					== 9)
 					continue;
@@ -33,5 +33,5 @@ int main(void)
 	}
 
 putchar('\n');
-return (0);
+ireturn (0);
 }
