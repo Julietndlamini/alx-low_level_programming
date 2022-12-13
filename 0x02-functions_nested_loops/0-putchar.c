@@ -2,6 +2,7 @@
 
 /**
  * main - Print _putchar
+ * is written by j ndlamini
  * Return: Always 0
  */
 int main(void)
