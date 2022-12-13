@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * main - print_putchar
+ * main - print_putchar.
  * is written by j ndlamini
  * Return: 0
  */
@@ -19,4 +20,3 @@ int main(void)
 
 	return (0);
 }
-
