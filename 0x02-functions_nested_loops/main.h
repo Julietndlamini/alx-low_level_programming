@@ -1,4 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-int_putchar(char)
+int _putchar(char c)
+
 #endif
