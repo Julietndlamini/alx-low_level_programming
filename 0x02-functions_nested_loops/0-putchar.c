@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*main - Print _putchar
+*main - Print _putchar.
 *is written by j ndlamini
 * Return: Always 0
 */
