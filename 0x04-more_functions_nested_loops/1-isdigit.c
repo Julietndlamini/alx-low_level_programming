@@ -1,12 +1,11 @@
 include "main.h"
 
 /**
-* _isdigit - checks for a digit (0 through 9)
-* @c: int to be checked
+* _isdigit - write function that checks for a digit (0 th*	rough 9)
+* @c: char to be checked
 *
 * Return: 1 or 0
-*/
-
+**/
 int _isdigit(int c)
 {
 if (c >= '0' && c <= '9')
