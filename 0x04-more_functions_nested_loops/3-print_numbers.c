@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
-* print_numbers - checks for checks for a digit (0 throu*	gh 9).
-*
-* Return: Always 0.
+* print_numbers - print 0123456789
+*owned by juls
+* Return: void.
 */
 
 void print_numbers(void)
 {
-int c;
-for (c = 48; c < 58; c++)
+char c;
+for (c = '0'; c <= '9'; c++)
 {
 _putchar(c);
 }
 _putchar('\n');
 }
-
