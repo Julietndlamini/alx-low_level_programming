@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
-* print_numbers - print numbers
-* Return: Always 0
-*/
+ * print_numbers - print 123456789
+ * owned by juliet ndlamini
+ * Return: void
+ */
 
 void print_numbers(void)
 {
-int i;
+	char c;
 
-i = 0;
-while (i < 10)
-{
-_putchar(i + '0');
-i++;
-}
-
-_putchar('\n');
+	for (c = '0'; c<= '9'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
