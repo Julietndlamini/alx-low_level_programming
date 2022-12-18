@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
-* print_numbers - print 01356789
-*owned by juls
-* Return: void.
+* print_numbers - print numbers
+* Return: Always 0
 */
 
 void print_numbers(void)
 {
-char c;
-for (c = '0'; c <= '9'; c++)
+int i;
+
+i = 0;
+while (i <= 9)
 {
-_putchar(c);
+_putchar(i + '0');
+i++;
 }
 _putchar('\n');
 }
