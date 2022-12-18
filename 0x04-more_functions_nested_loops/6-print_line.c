@@ -1,24 +1,23 @@
-
 #include "main.h"
 
 /**
-* print_line - draws a straight line in the terminal
-* @n: number of times the character _ should be printed
-*/
+ * more_numbers - prints 10 times the numbers
+ *
+ * Return: 0
+ */
+void more_numbers(void)
+{
+	int x;
+	int y;
 
-void print_line(int n)
-{
-if (n <= 0)
-{
-_putchar('\n');
-}
-else
-{
-int i;
-for (i = 1; i <= n; i++)
-{
-_putchar('_');
-}
-_putchar('\n');
-}
+	for (x = 0; x < 10; x++)
+	{
+		for (y = 0; y <= 14; y++)
+		{
+			if (y >= 10)
+				_putchar((y / 10) + '0');
+			_putchar((y % 10) + '0');
+		}
+		_putchar('\n');
+	}
 }
