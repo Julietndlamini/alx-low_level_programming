@@ -9,8 +9,8 @@
 int main(void)
 {
 char s[] = "ROT13 (\"rotate by 13 place
-	s\", sometimes hyphenated ROT-13) is a si
-	mple letter substitution cipher.\n";
+s\", sometimes hyphenated ROT-13) is a si
+mple letter substitution cipher.\n";
 char *p;
 
 p = rot13(s);
